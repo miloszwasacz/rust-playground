@@ -91,7 +91,7 @@ fn pi_exercise() {
     println!("{result}")
 }
 
-//region Debug
+// region: Debug
 #[allow(dead_code)]
 struct Unprintable(i32);
 
@@ -126,9 +126,9 @@ fn string_format_debug() {
     println!("{person:?}");
     println!("{person:#?}");
 }
-//endregion
+// endregion
 
-//region Display
+// region: Display
 use std::fmt;
 
 #[derive(Debug)]
@@ -255,4 +255,4 @@ fn string_format_display_formatting() {
         println!("{}", *color);
     }
 }
-//endregion
+// endregion
